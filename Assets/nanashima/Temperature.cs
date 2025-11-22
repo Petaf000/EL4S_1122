@@ -1,27 +1,54 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Temperature : MonoBehaviour
 {
-    [SerializeField]TextMeshPro temprature;
-    [SerializeField]TextMeshPro score;
+    [SerializeField] Slider temprature;
+    [SerializeField]TextMeshProUGUI scoretext;
+    [SerializeField] Slider gauge;    // UIのスライダー
+    [SerializeField] float duration = 30f;  // ゲージが0になるまでの秒数
+
+    float timer = 0f;
+    int score=0;
+    bool timeout=false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        gauge.maxValue = duration;
+        gauge.value = duration;
     }
 
     // Update is called once per frame
     void Update()
     {
+        Timer();
         
     }
-    void ChengeTempratureText(int nowtemp)
+    void ChengeTemprature(int nowtemp)
     {
-        temprature.text = nowtemp.ToString();
+        temprature.value = nowtemp;
     }
-    void ChengeScoreText(int nowscore)
+    void ChengeScoreText(int addscore)
     {
-        score.text = nowscore.ToString();
+        score += addscore;
+        scoretext.text = addscore.ToString();
     }
+    void Timer()
+    {  timer += Time.deltaTime;
+        gauge.value = Mathf.Clamp(duration - timer, 0, duration);
+        if (gauge.value <= 0)
+        {
+            timeout= true;
+        }
+        else timeout= false;
+    }
+    bool GetTimeout()
+        { return timeout; }
+  
+   
+
+
 }
