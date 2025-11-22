@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerInput : MonoBehaviour
 {
     public InputActionReference dragRef;
+    public SpeedGauge speedGauge;
 
     [Header("İ’è")]
     public float maxSpeedThreshold = 25.0f;
@@ -53,6 +54,11 @@ public class PlayerInput : MonoBehaviour
         if (_currentSpeed > 0.01f)
         {
             Debug.Log($"Œ»İ‚Ìƒ`ƒƒ[ƒW: {_currentSpeed:F2}");
+        }
+
+        if (speedGauge != null)
+        {
+            speedGauge.UpdateGauge(_currentSpeed);
         }
     }
 
