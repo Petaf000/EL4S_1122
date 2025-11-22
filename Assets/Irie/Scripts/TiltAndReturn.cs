@@ -14,6 +14,8 @@ public class TiltAndReturn : MonoBehaviour
 
     public Sprite awaImage;
 
+    public AudioSource pushu;
+
     private void Start()
     {
         resultManager = GameObject.Find("ResultManager").GetComponent<ResultManager>();
@@ -53,6 +55,7 @@ public class TiltAndReturn : MonoBehaviour
             yield return null;
         }
 
+        pushu.Play();
         resultManager.AddKanValue();
         GetComponent<Image>().sprite = awaImage;
 
