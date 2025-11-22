@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a967c89f57682d84395bab8eacf954d7
+guid: 9f6c7d44acece064d81dd93264849dc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6870988120945914581
-    second: Beer 1_0
+      213: -2386754732033276184
+    second: beer_texture_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Beer 1_0
+      name: beer_texture_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 408
-        height: 408
+        width: 628
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d2f8ecba47aa5f50800000000000000
-      internalID: 6870988120945914581
+      spriteID: 8e68c2f773b80eed0800000000000000
+      internalID: -2386754732033276184
       vertices: []
       indices: 
       edges: []
