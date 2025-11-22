@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f7c719fafc8bfee49a1b43aa02e661f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a5296ba804e101448f96579b88f8f76, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -109,7 +109,7 @@ MonoBehaviour:
   returnTime: 0.2
   yPos: 1
   resultManager: {fileID: 0}
-  awaImage: {fileID: 21300000, guid: 58cc336bec9d17f40b9284c53230f7f5, type: 3}
+  awaImage: {fileID: 21300000, guid: f1c6c5d69e99bce49a94e2df91ef0a1e, type: 3}
   pushu: {fileID: 3179415263089036304}
 --- !u!1001 &6533947168169074445
 PrefabInstance:
