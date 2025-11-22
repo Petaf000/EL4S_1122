@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Can_Mask_BlackBG_0: -7561498202675119291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

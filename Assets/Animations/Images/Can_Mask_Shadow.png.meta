@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 71c3fc4ec220ae5449271a8d08fb2ccd
+guid: 421495160e05cbe4f9f1713c4907ec98
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -856085545168688419
-    second: ice_0
+      213: 7212972247114625691
+    second: Can_Mask_Shadow_0
+  - first:
+      213: -7198836974980628650
+    second: Can_Mask_Shadow_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ice_0
+      name: Can_Mask_Shadow_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 540
-        height: 360
+        width: 82
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddaafde7bb29e14f0800000000000000
-      internalID: -856085545168688419
+      spriteID: b92b404fa00a91460800000000000000
+      internalID: 7212972247114625691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Can_Mask_Shadow_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 82
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ff45e89e7981c90800000000000000
+      internalID: -7198836974980628650
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ice_0: -856085545168688419
+      Can_Mask_Shadow_0: 7212972247114625691
+      Can_Mask_Shadow_1: -7198836974980628650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
