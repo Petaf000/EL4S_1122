@@ -202,9 +202,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1795657099}
-        m_TargetAssemblyTypeName: AppSceneManager, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 1601299112}
+        m_TargetAssemblyTypeName: TitleSceneTransition, Assembly-CSharp
+        m_MethodName: SceneTransition
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1114,6 +1114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4325612079423025498, guid: e7aac994b16632a45a1feed885bbf072, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1283,6 +1287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1601299111}
   - component: {fileID: 1601299110}
+  - component: {fileID: 1601299112}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -1303,7 +1308,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _toggleObject: {fileID: 1025473117}
-  _audioManager: {fileID: 852410354}
 --- !u!4 &1601299111
 Transform:
   m_ObjectHideFlags: 0
@@ -1319,6 +1323,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1601299112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601299109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7620c9a84fd54014eaf181d2e1dcbe88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneManager: {fileID: 1795657099}
+  _audioManager: {fileID: 852410354}
 --- !u!1001 &1602212776
 PrefabInstance:
   m_ObjectHideFlags: 0
