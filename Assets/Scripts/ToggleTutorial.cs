@@ -5,6 +5,7 @@ public class ToggleTutorial : MonoBehaviour
 	[SerializeField]
 	GameObject _toggleObject;
 
+
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
 	{
