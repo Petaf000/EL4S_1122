@@ -5,7 +5,7 @@ public class PlayerInput : MonoBehaviour
 {
     public InputActionReference dragRef;
     public SpeedGauge speedGauge;
-
+    public MoveHands moveHands;
     [Header("ê›íË")]
     public float maxSpeedThreshold = 25.0f;
     public float accelerationSpeed = 20.0f;
@@ -59,6 +59,7 @@ public class PlayerInput : MonoBehaviour
         if (speedGauge != null)
         {
             speedGauge.UpdateGauge(_currentSpeed);
+            moveHands.moveHands(_currentSpeed);
         }
     }
 
