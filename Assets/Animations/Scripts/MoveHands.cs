@@ -31,12 +31,17 @@ public class MoveHands : MonoBehaviour
 
     void Update()
     {
-        timer += Time.deltaTime * moveSpeed;
+    
+    }
+
+    public void moveHands(float downDist)
+    {
+        timer += Time.deltaTime * downDist;
 
         Transform currentHand = isRightTurn ? rightHand : leftHand;
         Vector3 startPos = isRightTurn ? rightStartPos : leftStartPos;
 
-        float t = timer / swapInterval; 
+        float t = timer / swapInterval;
 
         if (t < 0.25f)
         {
@@ -47,7 +52,7 @@ public class MoveHands : MonoBehaviour
         }
         else
         {
-            float downT = (t - 0.25f) / 0.75f; 
+            float downT = (t - 0.25f) / 0.75f;
             currentHand.localPosition = startPos + new Vector3(0f, -downDistance * downT, 0f);
             currentHand.localScale = originalScale;
         }
