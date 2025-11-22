@@ -990,6 +990,56 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "RollCanPlayer",
+            "id": "9a05253b-babf-4546-a8cc-16a755410da3",
+            "actions": [
+                {
+                    "name": "PressMouse",
+                    "type": "Value",
+                    "id": "b7442a7f-583d-4081-9d73-e9101b9e01a5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "7cf99758-d1d5-49ed-9fbe-60cd91bf42a5",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PressMouse",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "0d0e2481-71c9-4a12-bdee-f15224a28450",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "PressMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "4a2251b9-b4d5-4acc-abad-486a1def64e6",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "PressMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
         }
     ],
     "controlSchemes": [
