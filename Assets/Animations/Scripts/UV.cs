@@ -15,4 +15,8 @@ public class UV : MonoBehaviour
         mat.SetFloat("_Speed",a);
     }
 
+    public void SpeedCan(float speed) {
+
+        a = speed * 10;
+    }
 }
