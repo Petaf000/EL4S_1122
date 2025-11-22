@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 4510e9797079962429d7fa0ce1912415
+guid: 24ae7f8d19e2b5e4b8cbc251e2d27d72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7561498202675119291
-    second: Can_Mask_BlackBG_0
+      213: 6060175823729801698
+    second: cold_0
+  - first:
+      213: 3811617944471401928
+    second: cold_1
+  - first:
+      213: -9210964605230986437
+    second: cold_2
+  - first:
+      213: -1015220855098994299
+    second: cold_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Can_Mask_BlackBG_0
+      name: cold_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 400
+        x: 79
+        y: 129
+        width: 531
+        height: 926
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54b7bcb7279201790800000000000000
-      internalID: -7561498202675119291
+      spriteID: 2e933d1bdc11a1450800000000000000
+      internalID: 6060175823729801698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cold_1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 900
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5f8bf535695e430800000000000000
+      internalID: 3811617944471401928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cold_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 667
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bc28a4e741c2080800000000000000
+      internalID: -9210964605230986437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cold_3
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 434
+        width: 124
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581914bd20639e1f0800000000000000
+      internalID: -1015220855098994299
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Can_Mask_BlackBG_0: -7561498202675119291
+      cold_0: 6060175823729801698
+      cold_1: 3811617944471401928
+      cold_2: -9210964605230986437
+      cold_3: -1015220855098994299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

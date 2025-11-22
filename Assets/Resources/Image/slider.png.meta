@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4510e9797079962429d7fa0ce1912415
+guid: 18476ee801bdf4a43b0de18b0cdbe9c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7561498202675119291
-    second: Can_Mask_BlackBG_0
+      213: 6259983639586318526
+    second: slider_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Can_Mask_BlackBG_0
+      name: slider_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 400
+        x: 310
+        y: 193
+        width: 195
+        height: 719
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54b7bcb7279201790800000000000000
-      internalID: -7561498202675119291
+      spriteID: eb8ac4114fdefd650800000000000000
+      internalID: 6259983639586318526
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Can_Mask_BlackBG_0: -7561498202675119291
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
