@@ -29,6 +29,9 @@ public class ResultManager : MonoBehaviour
     [SerializeField]
     private GameObject Mask;
 
+    [SerializeField]
+    private CanvasScaler canvas;
+
     // [HideInInspector] 実行時にはこの文字列だけあれば良いのでインスペクタからは隠す
     [HideInInspector]
     [SerializeField] private string sceneToLoad;
@@ -43,6 +46,7 @@ public class ResultManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        speed *= canvas.scaleFactor;
         SetKanValue(coolKanValue);
     }
 
@@ -51,7 +55,7 @@ public class ResultManager : MonoBehaviour
     {
         coolKanValueText.text = "冷やした缶 : " + coolKanValueCurrent + "本";
         coolKanValueTextBack.text = "冷やした缶 : " + coolKanValueCurrent + "本";
-        if (KanParent.transform.position.x > (6 - (coolKanValue - 3)) * 300)
+        if (KanParent.transform.position.x > (6 - (coolKanValue - 3)) * 300 * canvas.scaleFactor)
         {
             KanParent.transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
         }
@@ -71,7 +75,7 @@ public class ResultManager : MonoBehaviour
         for (int i = 0; i < coolKanValue; i++)
         {
             GameObject a = Instantiate(Kan, KanParent.transform);
-            a.GetComponent<RectTransform>().position = new Vector3(200.0f + (300.0f * i), 200.0f, 0.0f);
+            a.GetComponent<RectTransform>().position = new Vector3(200.0f * canvas.scaleFactor + (300.0f * canvas.scaleFactor * i), 200.0f * canvas.scaleFactor, 0.0f);
             TiltAndReturn tar = a.GetComponent<TiltAndReturn>();
             tar.PlayTilt((tar.tiltTime + tar.returnTime) * i);
         }

@@ -802,6 +802,7 @@ MonoBehaviour:
   KanParent: {fileID: 686082191}
   speed: -800
   Mask: {fileID: 64658302}
+  canvas: {fileID: 1780744985}
   sceneToLoad: SampleScene
   sceneAsset: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
 --- !u!4 &1064256922
