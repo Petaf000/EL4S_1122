@@ -54,7 +54,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_0d8ac8e1501448bcba43316e51020c1f_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: ed33e6e43f008034a801694784b9b490, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9f6c7d44acece064d81dd93264849dc6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_db704e35a0d14855a9bd56e91fb838d0_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4510e9797079962429d7fa0ce1912415, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -75,10 +79,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BendAmount: 1
     - _EnableExternalAlpha: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0
+    - _Speed: 1.22
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

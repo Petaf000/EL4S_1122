@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9f6c7d44acece064d81dd93264849dc6
+guid: 4510e9797079962429d7fa0ce1912415
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2386754732033276184
-    second: beer_texture_0
+      213: -7561498202675119291
+    second: Can_Mask_BlackBG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beer_texture_0
+      name: Can_Mask_BlackBG_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 628
+        width: 200
         height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e68c2f773b80eed0800000000000000
-      internalID: -2386754732033276184
+      spriteID: 54b7bcb7279201790800000000000000
+      internalID: -7561498202675119291
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      beer_texture_0: -2386754732033276184
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
